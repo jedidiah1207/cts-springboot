@@ -1,0 +1,7 @@
+azure:
+  activedirectory:
+    tenant-id:
+    client-id:
+    client-secret:
+    user-group:
+      allowed-groups: group1
