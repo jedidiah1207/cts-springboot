@@ -8,7 +8,7 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 @SpringBootApplication
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true)
-public class  SpringSecurityAzureApplication {
+public class SpringSecurityAzureApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(SpringSecurityAzureApplication.class, args);

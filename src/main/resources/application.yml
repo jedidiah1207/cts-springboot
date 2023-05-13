@@ -1,7 +1,14 @@
 azure:
   activedirectory:
-    tenant-id:
-    client-id:
-    client-secret:
+    tenant-id: 7b2fa4e2-9c83-4edf-82bc-a68adb3c3b09
+    client-id: f17a0992-6158-4f51-9427-02d079069634
+    client-secret: ZxR8Q~weGayZ6_L5zm42GJP5u~iOTLn5KcXbQbj6
     user-group:
-      allowed-groups: group1
+      allowed-groups: 79d89e5b-54e5-4f0c-862f-a26fd4e4bb50
+  resource-server:
+    jwt:
+      issuer-uri: https://login.microsoftonline.com/Ten10/v2.0
+logging:
+  level:
+    org.springframework.http: DEBUG
+
